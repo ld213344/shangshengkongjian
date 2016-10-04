@@ -1,0 +1,329 @@
+/*头部开始*/
+.top{
+    height: 40px;
+    border-bottom:1px solid #cccccc;
+    font-size: 12px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.top span{
+    display: inline-block ;
+    color: #707070;
+}
+.top em{
+    display: inline-block ;
+    vertical-align: middle;
+    background:url(../images/icon1.png) no-repeat ;
+    width: 16px;
+    height: 10px;
+}
+.top .language-tab{
+    float: right ;
+}
+.top .language-tab a{
+    color:#333333;
+}
+.head .subhead{
+    height: 84px;
+}
+.head .subhead p{
+    float: left ;
+    color: #707070;
+    font-size: 12px;
+    line-height: 1em;
+    padding-top: 20px;
+}
+.head .subhead .phone{
+    float: right ;
+    line-height: 84px;
+    width: 354px;
+    vertical-align: middle ;
+}
+.head .subhead .phone img{
+    vertical-align: middle ;
+    width: 100%;
+}
+.head .nav{
+    height: 59px;
+}
+.head .nav .logo{
+    float: left ;
+    margin-top: -15px;
+    width: 210px;
+    height: 53px;
+}
+.head .nav .ul-nav{
+    float: right ;
+}
+.head .ul-nav li{
+    float: left ;
+    position: relative ;
+}
+.head .ul-nav li a{
+    display: block ;
+    width: 130px;
+    text-align: center ;
+    line-height: 57px;
+    font-size: 14px;
+    color: #333333;
+}
+.head .ul-nav li:hover{
+    border-bottom: 2px solid #333;
+}
+.head .ul-nav li dl{
+    display:none;
+    position: absolute ;
+    z-index: 999;
+    top:59px;
+    left: 0;
+    width: 100%;
+}
+.head .ul-nav li dd{
+    border-bottom: 1px solid #ccc;
+}
+.head .ul-nav li dd a{
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    vertical-align: middle;
+}
+.head .ul-nav li dd:hover a{
+    border-bottom:0;
+    background: #333333;
+    color:#fff;
+}
+.m-top{
+    display: none;
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    border-bottom:1px solid #cccccc;
+    font-size: 12px;
+    line-height: 35px;
+    vertical-align: middle;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 9999;
+}
+.m-top em{
+    display: inline-block ;
+    vertical-align: middle;
+    background:url(../images/icon1.png) no-repeat ;
+    width: 16px;
+    height: 10px;
+}
+.m-top span{
+    display: inline-block ;
+    color: #707070;
+}
+.m-head{
+    display: none;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    line-height: 50px;
+    position: fixed;
+    left: 0;
+    top:35px;
+    z-index: 9999;
+}
+.m-head .language-tab{
+    float: left ;
+    color:#333333;
+    font-size: 12px;
+}
+.m-head .logo{
+    position: absolute ;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 25px;
+}
+.m-head .logo img{
+    width: 100%;
+    display: block ;
+}
+.m-head .menu{
+    position: absolute ;
+    z-index: 999;
+    top:50px;
+    left: 0;
+    right:0;
+    width: 100%;
+    display: none;
+}
+.m-head .on{
+    display: block ;
+}
+.m-head .menu li a{
+    display: block ;
+    border-bottom: 1px solid #ccc;
+    text-align: center ;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333333;
+    background: #fff;
+}
+.m-head .menu li:hover a{
+    background: #333;
+    color: #fff;
+}
+.m-head .menu li dl{
+    display:none;
+
+}
+.m-head .menu li dd a{
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    color: #333333;
+    background: #fff;
+}
+.m-head .menuli dd:hover a{
+    border-bottom:0;
+    background: #999;
+    color:#fff;
+}
+.menuBtn{float:right; width: 35px;height: 35px;padding: 3px;cursor: pointer;position:relative;margin-top: 4px;
+    transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+.menuBtn b{display: block;height: 3px;background-color: #333;  margin: 3px 0 5px;border-radius: 2px;
+    transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+.menuBtn.open b{display: none;margin: 0;position: absolute;left: 5px;top: 50%;width: 30px;}
+.menuBtn.open b:first-child{display: block;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+}
+.menuBtn.open b:last-child{display: block;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+}
+/*头部结束*/
+/*底部*/
+.footer{
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+}
+.footer-tab{
+    padding-top: 36px;
+}
+.footer-tab a,.footer-tab em{
+    font-size: 12px;
+    color: #333;
+}
+.footer-tab em{
+    display: inline-block;
+    margin: 0 16px;
+}
+.footer-tab a:hover{
+    font-weight: bold;
+}
+.ul-footer{
+    padding-top: 16px;
+    overflow: hidden;
+}
+.ul-footer li{
+    float: left;
+}
+.ul-footer li a,.ul-footer li em{
+    font-size: 14px;
+    color: #666;
+}
+.ul-footer li a:hover{
+    color: #2c84ba;
+}
+.ul-footer li em{
+    display: inline-block;
+    margin: 0 18px;
+}
+.copy{
+    padding-top: 65px;
+    padding-bottom: 36px;
+    text-align: center;
+}
+.copy span{margin-right: 10px;}
+.phone{
+    display: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 24px;
+    height: 54px;
+    line-height: 54px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+/*列表页*/
+.cur{
+    background-color: #f4f4f4;
+    font-size: 14px;
+    line-height: 19px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+.cur a{
+    color:#666666;
+    display: inline-block ;
+    padding:0 12px;
+}
+.cur a:hover{
+    color:#333333;
+}
+.cur a:first-child {
+    padding-left: 42px;
+    background: url(../images/iconl1.png) no-repeat 0 center ;
+}
+.g-page {
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+.g-page ul{
+    overflow: hidden;
+    width: 326px;
+    margin: 0 auto;
+}
+.g-page ul li{
+    float: left ;
+}
+.g-page ul li a{
+    color: #666666;
+    display: block ;
+    width: 45px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center ;
+}
+.g-page ul li:hover a,.g-page ul .on a{
+    color: #333333;
+    font-weight: bold;
+}
+.g-page ul li:first-child a{
+    background: #333333 url(../images/iconl4.png) no-repeat center center;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.g-page ul li:last-child a{
+    background: #333333 url(../images/iconl5.png) no-repeat center center;;
+    color: #ffffff;
+    margin-left: 20px;
+}
